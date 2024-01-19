@@ -1,13 +1,313 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title" },
-    { "id": "2", "title": "another title" }
+  "banks":[
+    {"id":"1", "title":"Axis Bank", "image":"/assets/banks/axis.png"},
+    {"id":"2", "title":"Citi Bank", "image":"/assets/banks/citi.png"},
+    {"id":"3", "title":"Kotak Bank", "image":"/assets/banks/kotak.png"},
+    {"id":"4", "title":"SBI Bank", "image":"/assets/banks/sbi.png"},
+    {"id":"5", "title":"Yes Bank", "image":"/assets/banks/yes.png"},
+    {"id":"6", "title":"HDFC Bank", "image":"/assets/banks/hdfc.png"},
+    {"id":"7", "title":"PNB Bank", "image":"/assets/banks/pnb.png"},
+    {"id":"8", "title":"ICICI Bank", "image":"/assets/banks/icici.png"},
+    {"id":"9", "title":"Union Bank", "image":"/assets/banks/union.png"},
+    {"id":"10", "title":"Indian Bank", "image":"/assets/banks/indian.png"},
+    {"id":"11", "title":"Canara Bank", "image":"/assets/banks/canara.png"}
   ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  "users":[
+    {
+      "id":1,
+      "firstName":"admin",
+      "lastName":"",
+      "password":"admin",
+      "email":"admin@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":1,
+        "bankName":"Admin Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"admin007",
+        "branch":"hq"
+      }
+    },
+    {
+      "id":2,
+      "firstName":"Arsalan",
+      "lastName":"Akhtar",
+      "password":"Arsalan@123",
+      "email":"arsalanakhtar123@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":2,
+        "bankName":"Axis Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"utib007",
+        "branch":"Noida"
+      }
+    },
+    {
+      "id":3,
+      "firstName":"Yuvraj",
+      "lastName":"Singh",
+      "password":"Yuvraj@123",
+      "email":"yuvrajsingh123@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":3,
+        "bankName":"PNB Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"pnbb007",
+        "branch":"gurugram"
+      }
+    },
+    {
+      "id":4,
+      "firstName":"Rantu",
+      "lastName":"Bangal",
+      "password":"Rantu@123",
+      "email":"rantu123@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":4,
+        "bankName":"HDFC Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"HDFC007",
+        "branch":"Paharganj"
+      }
+    },
+    {
+      "id":5,
+      "firstName":"Akash",
+      "lastName":"Yadav",
+      "password":"Akash@123",
+      "email":"akashyadav123@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":3,
+        "bankName":"citi Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"citi007",
+        "branch":"Saket"
+      }
+    },
+    {
+      "id":6,
+      "firstName":"Shlok",
+      "lastName":"Gaikwad",
+      "password":"Shlok@123",
+      "email":"shlokgaikwad123@gmail.com",
+      "phone":"8765434566",
+      "bankDetails":{
+        "passbookId":6,
+        "bankName":"Yes Bank",
+        "cardNumber":"1234567891234567",
+        "accountNumber":"123456789012",
+        "ifscCode":"yes007",
+        "branch":"Kalyan"
+      }
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "passbook":[
+    {
+      "id":1,
+      "amount":"80000",
+      "transactions":[
+        {
+          "amount":"2000",
+          "title":"Recieved",
+          "type":"credit",
+          "date":"19/01/2024",
+          "time":"17:50",
+          "recipient":"Self",
+          "from":"Nitin"
+        },
+        {
+          "amount":"2000",
+          "title":"Added to wallet",
+          "type":"credit",
+          "date":"19/01/2024",
+          "time":"17:50",
+          "recipient":"Self"
+        },
+        {
+          "amount":"2000",
+          "title":"transferred",
+          "type":"debit",
+          "date":"19/01/2024",
+          "time":"17:58",
+          "recipient":"Yuvraj",
+          "accountNumber":"123456789012",
+          "ifscCode":"utib007"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "amount": "120000",
+      "transactions": [
+        {
+          "amount": "5000",
+          "title": "Received",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "10:30",
+          "recipient": "Self",
+          "from": "Alice"
+        },
+        {
+          "amount": "3000",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "10:35",
+          "recipient": "Self"
+        },
+        {
+          "amount": "2000",
+          "title": "Transferred",
+          "type": "debit",
+          "date": "19/01/2024",
+          "time": "11:15",
+          "recipient": "John",
+          "accountNumber": "987654321098",
+          "ifscCode": "icic001"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "amount": "55000",
+      "transactions": [
+        {
+          "amount": "3000",
+          "title": "Received",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "14:20",
+          "recipient": "Self",
+          "from": "Sarah"
+        },
+        {
+          "amount": "2000",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "18/01/2024",
+          "time": "14:25",
+          "recipient": "Self"
+        },
+        {
+          "amount": "1000",
+          "title": "Transferred",
+          "type": "debit",
+          "date": "17/01/2024",
+          "time": "15:05",
+          "recipient": "Emma",
+          "accountNumber": "654321098765",
+          "ifscCode": "sbi009"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "amount": "95000",
+      "transactions": [
+        {
+          "amount": "4000",
+          "title": "Received",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "09:45",
+          "recipient": "Self",
+          "from": "Michael"
+        },
+        {
+          "amount": "3000",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "18/01/2024",
+          "time": "10:00",
+          "recipient": "Self"
+        },
+        {
+          "amount": "2000",
+          "title": "Transferred",
+          "type": "debit",
+          "date": "17/01/2024",
+          "time": "10:30",
+          "recipient": "David",
+          "accountNumber": "112233445566",
+          "ifscCode": "hdfc005"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "amount": "72000",
+      "transactions": [
+        {
+          "amount": "2500",
+          "title": "Received",
+          "type": "credit",
+          "date": "17/01/2024",
+          "time": "12:15",
+          "recipient": "Self",
+          "from": "Alex"
+        },
+        {
+          "amount": "2000",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "18/01/2024",
+          "time": "12:20",
+          "recipient": "Self"
+        },
+        {
+          "amount": "1500",
+          "title": "Transferred",
+          "type": "debit",
+          "date": "19/01/2024",
+          "time": "13:00",
+          "recipient": "Sophia",
+          "accountNumber": "998877665544",
+          "ifscCode": "axis003"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "amount": "88000",
+      "transactions": [
+        {
+          "amount": "3000",
+          "title": "Received",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "08:30",
+          "recipient": "Self",
+          "from": "Oliver"
+        },
+        {
+          "amount": "2500",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "18/01/2024",
+          "time": "09:00",
+          "recipient": "Self"
+        },
+        {
+          "amount": "2000",
+          "title": "Transferred",
+          "type": "debit",
+          "date": "18/01/2024",
+          "time": "09:45",
+          "recipient": "Ella",
+          "accountNumber": "112233445566",
+          "ifscCode": "hdfc005"
+        }
+      ]
+    }
+  ]
 }
