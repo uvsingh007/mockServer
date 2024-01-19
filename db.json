@@ -1,146 +1,196 @@
 {
-  "banks":[
-    {"id":"1", "title":"Axis Bank", "image":"/assets/banks/axis.png"},
-    {"id":"2", "title":"Citi Bank", "image":"/assets/banks/citi.png"},
-    {"id":"3", "title":"Kotak Bank", "image":"/assets/banks/kotak.png"},
-    {"id":"4", "title":"SBI Bank", "image":"/assets/banks/sbi.png"},
-    {"id":"5", "title":"Yes Bank", "image":"/assets/banks/yes.png"},
-    {"id":"6", "title":"HDFC Bank", "image":"/assets/banks/hdfc.png"},
-    {"id":"7", "title":"PNB Bank", "image":"/assets/banks/pnb.png"},
-    {"id":"8", "title":"ICICI Bank", "image":"/assets/banks/icici.png"},
-    {"id":"9", "title":"Union Bank", "image":"/assets/banks/union.png"},
-    {"id":"10", "title":"Indian Bank", "image":"/assets/banks/indian.png"},
-    {"id":"11", "title":"Canara Bank", "image":"/assets/banks/canara.png"}
+  "banks": [
+    {
+      "id": "1",
+      "title": "Axis Bank",
+      "image": "/assets/banks/axis.png"
+    },
+    {
+      "id": "2",
+      "title": "Citi Bank",
+      "image": "/assets/banks/citi.png"
+    },
+    {
+      "id": "3",
+      "title": "Kotak Bank",
+      "image": "/assets/banks/kotak.png"
+    },
+    {
+      "id": "4",
+      "title": "SBI Bank",
+      "image": "/assets/banks/sbi.png"
+    },
+    {
+      "id": "5",
+      "title": "Yes Bank",
+      "image": "/assets/banks/yes.png"
+    },
+    {
+      "id": "6",
+      "title": "HDFC Bank",
+      "image": "/assets/banks/hdfc.png"
+    },
+    {
+      "id": "7",
+      "title": "PNB Bank",
+      "image": "/assets/banks/pnb.png"
+    },
+    {
+      "id": "8",
+      "title": "ICICI Bank",
+      "image": "/assets/banks/icici.png"
+    },
+    {
+      "id": "9",
+      "title": "Union Bank",
+      "image": "/assets/banks/union.png"
+    },
+    {
+      "id": "10",
+      "title": "Indian Bank",
+      "image": "/assets/banks/indian.png"
+    },
+    {
+      "id": "11",
+      "title": "Canara Bank",
+      "image": "/assets/banks/canara.png"
+    }
   ],
-  "users":[
+  "users": [
     {
-      "id":1,
-      "firstName":"admin",
-      "lastName":"",
-      "password":"admin",
-      "email":"admin@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":1,
-        "bankName":"Admin Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"admin007",
-        "branch":"hq"
+      "id": 1,
+      "firstName": "admin",
+      "lastName": "",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        "passbookId": 1,
+        "bankName": "Admin Bank",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "admin007",
+        "branch": "hq"
       }
     },
     {
-      "id":2,
-      "firstName":"Arsalan",
-      "lastName":"Akhtar",
-      "password":"Arsalan@123",
-      "email":"arsalanakhtar123@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":2,
-        "bankName":"Axis Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"utib007",
-        "branch":"Noida"
+      "id": 2,
+      "firstName": "Arsalan",
+      "lastName": "Akhtar",
+      "password": "Arsalan@123",
+      "email": "arsalanakhtar123@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        "passbookId": 2,
+        "bankName": "Axis Bank",
+        "image": "/assets/banks/axis.png",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "utib007",
+        "branch": "Noida"
       }
     },
     {
-      "id":3,
-      "firstName":"Yuvraj",
-      "lastName":"Singh",
-      "password":"Yuvraj@123",
-      "email":"yuvrajsingh123@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":3,
-        "bankName":"PNB Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"pnbb007",
-        "branch":"gurugram"
+      "id": 3,
+      "firstName": "Yuvraj",
+      "lastName": "Singh",
+      "password": "Yuvraj@123",
+      "email": "yuvrajsingh123@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        
+        "passbookId": 3,
+        "bankName": "PNB Bank",
+        "image": "/assets/banks/pnb.png",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "pnbb007",
+        "branch": "gurugram"
       }
     },
     {
-      "id":4,
-      "firstName":"Rantu",
-      "lastName":"Bangal",
-      "password":"Rantu@123",
-      "email":"rantu123@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":4,
-        "bankName":"HDFC Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"HDFC007",
-        "branch":"Paharganj"
+      "id": 4,
+      "firstName": "Rantu",
+      "lastName": "Bangal",
+      "password": "Rantu@123",
+      "email": "rantu123@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        "passbookId": 4,
+        "bankName": "HDFC Bank",
+        "image": "/assets/banks/hdfc.png",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "HDFC007",
+        "branch": "Paharganj"
       }
     },
     {
-      "id":5,
-      "firstName":"Akash",
-      "lastName":"Yadav",
-      "password":"Akash@123",
-      "email":"akashyadav123@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":3,
-        "bankName":"citi Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"citi007",
-        "branch":"Saket"
+      "id": 5,
+      "firstName": "Akash",
+      "lastName": "Yadav",
+      "password": "Akash@123",
+      "email": "akashyadav123@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        "passbookId": 3,
+        "bankName": "citi Bank",
+        "image": "/assets/banks/citi.png",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "citi007",
+        "branch": "Saket"
       }
     },
     {
-      "id":6,
-      "firstName":"Shlok",
-      "lastName":"Gaikwad",
-      "password":"Shlok@123",
-      "email":"shlokgaikwad123@gmail.com",
-      "phone":"8765434566",
-      "bankDetails":{
-        "passbookId":6,
-        "bankName":"Yes Bank",
-        "cardNumber":"1234567891234567",
-        "accountNumber":"123456789012",
-        "ifscCode":"yes007",
-        "branch":"Kalyan"
+      "id": 6,
+      "firstName": "Shlok",
+      "lastName": "Gaikwad",
+      "password": "Shlok@123",
+      "email": "shlokgaikwad123@gmail.com",
+      "phone": "8765434566",
+      "bankDetails": {
+        "passbookId": 6,
+        "bankName": "Yes Bank",
+        "image": "/assets/banks/yes.png",
+        "cardNumber": "1234567891234567",
+        "accountNumber": "123456789012",
+        "ifscCode": "yes007",
+        "branch": "Kalyan"
       }
     }
   ],
-  "passbook":[
+  "passbook": [
     {
-      "id":1,
-      "amount":"80000",
-      "transactions":[
+      "id": 1,
+      "amount": "80000",
+      "transactions": [
         {
-          "amount":"2000",
-          "title":"Recieved",
-          "type":"credit",
-          "date":"19/01/2024",
-          "time":"17:50",
-          "recipient":"Self",
-          "from":"Nitin"
+          "amount": "2000",
+          "title": "Recieved",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "17:50",
+          "recipient": "Self",
+          "from": "Nitin"
         },
         {
-          "amount":"2000",
-          "title":"Added to wallet",
-          "type":"credit",
-          "date":"19/01/2024",
-          "time":"17:50",
-          "recipient":"Self"
+          "amount": "2000",
+          "title": "Added to wallet",
+          "type": "credit",
+          "date": "19/01/2024",
+          "time": "17:50",
+          "recipient": "Self"
         },
         {
-          "amount":"2000",
-          "title":"transferred",
-          "type":"debit",
-          "date":"19/01/2024",
-          "time":"17:58",
-          "recipient":"Yuvraj",
-          "accountNumber":"123456789012",
-          "ifscCode":"utib007"
+          "amount": "2000",
+          "title": "transferred",
+          "type": "debit",
+          "date": "19/01/2024",
+          "time": "17:58",
+          "recipient": "Yuvraj",
+          "accountNumber": "123456789012",
+          "ifscCode": "utib007"
         }
       ]
     },
@@ -308,6 +358,88 @@
           "ifscCode": "hdfc005"
         }
       ]
+    }
+  ],
+  "contacts":[
+    {
+      "name": "John Doe",
+      "number": "+1234567890"
+    },
+    {
+      "name": "Alice Smith",
+      "number": "+9876543210"
+    },
+    {
+      "name": "Bob Johnson",
+      "number": "+5551234567"
+    },
+    {
+      "name": "Eva Miller",
+      "number": "+1239876543"
+    },
+    {
+      "name": "Charlie Brown",
+      "number": "+7894561230"
+    },
+    {
+      "name": "Grace Davis",
+      "number": "+3216549870"
+    },
+    {
+      "name": "David Lee",
+      "number": "+9876543210"
+    },
+    {
+      "name": "Olivia Taylor",
+      "number": "+4567890123"
+    },
+    {
+      "name": "Sam Wilson",
+      "number": "+7890123456"
+    },
+    {
+      "name": "Sophie Carter",
+      "number": "+2345678901"
+    },
+    {
+      "name": "Emma Turner",
+      "number": "+8765432109"
+    },
+    {
+      "name": "Daniel Harris",
+      "number": "+1098765432"
+    },
+    {
+      "name": "Lily Martinez",
+      "number": "+2039485761"
+    },
+    {
+      "name": "Aiden Rodriguez",
+      "number": "+5678901234"
+    },
+    {
+      "name": "Mia Anderson",
+      "number": "+3210987654"
+    },
+    {
+      "name": "James Brown",
+      "number": "+7654321098"
+    },
+    {
+      "name": "Ava Clark",
+      "number": "+9870123456"
+    },
+    {
+      "name": "Carter Foster",
+      "number": "+2345678901"
+    },
+    {
+      "name": "Ella Parker",
+      "number": "+8901234567"
+    },
+    {
+      "name": "Nathan Smith",
+      "number": "+1234509876"
     }
   ]
 }
