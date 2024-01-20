@@ -3,57 +3,57 @@
     {
       "id": "1",
       "title": "Axis Bank",
-      "image": "/assets/banks/axis.png"
+      "image": "../assets/banks/axis.png"
     },
     {
       "id": "2",
       "title": "Citi Bank",
-      "image": "/assets/banks/citi.png"
+      "image": "../assets/banks/citi.png"
     },
     {
       "id": "3",
       "title": "Kotak Bank",
-      "image": "/assets/banks/kotak.png"
+      "image": "../assets/banks/kotak.png"
     },
     {
       "id": "4",
       "title": "SBI Bank",
-      "image": "/assets/banks/sbi.png"
+      "image": "../assets/banks/sbi.png"
     },
     {
       "id": "5",
       "title": "Yes Bank",
-      "image": "/assets/banks/yes.png"
+      "image": "../assets/banks/yes.png"
     },
     {
       "id": "6",
       "title": "HDFC Bank",
-      "image": "/assets/banks/hdfc.png"
+      "image": "../assets/banks/hdfc.png"
     },
     {
       "id": "7",
       "title": "PNB Bank",
-      "image": "/assets/banks/pnb.png"
+      "image": "../assets/banks/pnb.png"
     },
     {
       "id": "8",
       "title": "ICICI Bank",
-      "image": "/assets/banks/icici.png"
+      "image": "../assets/banks/icici.png"
     },
     {
       "id": "9",
       "title": "Union Bank",
-      "image": "/assets/banks/union.png"
+      "image": "../assets/banks/union.png"
     },
     {
       "id": "10",
       "title": "Indian Bank",
-      "image": "/assets/banks/indian.png"
+      "image": "../assets/banks/indian.png"
     },
     {
       "id": "11",
       "title": "Canara Bank",
-      "image": "/assets/banks/canara.png"
+      "image": "../assets/banks/canara.png"
     }
   ],
   "users": [
@@ -83,7 +83,7 @@
       "bankDetails": {
         "passbookId": 2,
         "bankName": "Axis Bank",
-        "image": "/assets/banks/axis.png",
+        "image": "../assets/banks/axis.png",
         "cardNumber": "1234567891234567",
         "accountNumber": "123456789012",
         "ifscCode": "utib007",
@@ -101,7 +101,7 @@
         
         "passbookId": 3,
         "bankName": "PNB Bank",
-        "image": "/assets/banks/pnb.png",
+        "image": "../assets/banks/pnb.png",
         "cardNumber": "1234567891234567",
         "accountNumber": "123456789012",
         "ifscCode": "pnbb007",
@@ -118,7 +118,7 @@
       "bankDetails": {
         "passbookId": 4,
         "bankName": "HDFC Bank",
-        "image": "/assets/banks/hdfc.png",
+        "image": "../assets/banks/hdfc.png",
         "cardNumber": "1234567891234567",
         "accountNumber": "123456789012",
         "ifscCode": "HDFC007",
@@ -135,7 +135,7 @@
       "bankDetails": {
         "passbookId": 3,
         "bankName": "citi Bank",
-        "image": "/assets/banks/citi.png",
+        "image": "../assets/banks/citi.png",
         "cardNumber": "1234567891234567",
         "accountNumber": "123456789012",
         "ifscCode": "citi007",
@@ -152,7 +152,7 @@
       "bankDetails": {
         "passbookId": 6,
         "bankName": "Yes Bank",
-        "image": "/assets/banks/yes.png",
+        "image": "../assets/banks/yes.png",
         "cardNumber": "1234567891234567",
         "accountNumber": "123456789012",
         "ifscCode": "yes007",
