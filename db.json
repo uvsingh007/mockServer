@@ -64,10 +64,26 @@
       "password": "admin",
       "email": "admin@gmail.com",
       "phone": "8765434566",
+      "userImage":"../assests/user/user.jpg",
       "bankDetails": {
         "passbookId": 1,
         "bankName": "Admin Bank",
-        "cardNumber": "1234567891234567",
+        "cards":[
+          {
+            "cardNumber":"1234567891234567",
+            "expiryDate":"032021",
+            "cardHolderName":"admin",
+            "cvv":"123",
+            "cardType":"debit"
+          },
+          {
+            "cardNumber":"1234567891234565",
+            "expiryDate":"032021",
+            "cardHolderName":"admin",
+            "cvv":"123",
+            "cardType":"credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "admin007",
         "branch": "hq"
@@ -80,11 +96,27 @@
       "password": "Arsalan@123",
       "email": "arsalanakhtar124@gmail.com",
       "phone": "8409059493",
+      "userImage":"../assests/user/arsalanbg.jpg",
       "bankDetails": {
         "passbookId": 2,
         "bankName": "Axis Bank",
         "image": "../assets/banks/axis.png",
-        "cardNumber": "1234567891234567",
+        "cards": [
+          {
+            "cardNumber": "9876543219876543",
+            "expiryDate": "122025",
+            "cardHolderName": "Arsalan Akhtar",
+            "cvv": "456",
+            "cardType": "debit"
+          },
+          {
+            "cardNumber": "9876543219876541",
+            "expiryDate": "112026",
+            "cardHolderName": "Arsalan Akhtar",
+            "cvv": "789",
+            "cardType": "credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "utib007",
         "branch": "Noida"
@@ -97,12 +129,27 @@
       "password": "Yuvraj@123",
       "email": "mr.uvsingh@gmail.com",
       "phone": "8512856025",
+      "userImage":"../assests/user/yuvrajbg.jpg",
       "bankDetails": {
-        
         "passbookId": 3,
         "bankName": "PNB Bank",
         "image": "../assets/banks/pnb.png",
-        "cardNumber": "1234567891234567",
+        "cards":[
+          {
+            "cardNumber": "1357924681357924",
+            "expiryDate": "052024",
+            "cardHolderName": "Yuvraj Singh",
+            "cvv": "246",
+            "cardType": "debit"
+          },
+          {
+            "cardNumber": "2468135792468135",
+            "expiryDate": "092025",
+            "cardHolderName": "Yuvraj Singh",
+            "cvv": "579",
+            "cardType": "credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "pnbb007",
         "branch": "gurugram"
@@ -115,11 +162,27 @@
       "password": "Rantu@123",
       "email": "rantubangal996@gmail.com",
       "phone": "9123672781",
+      "userImage":"../assests/user/rantubg.jpg",
       "bankDetails": {
         "passbookId": 4,
         "bankName": "HDFC Bank",
         "image": "../assets/banks/hdfc.png",
-        "cardNumber": "1234567891234567",
+        "cards":[
+          {
+            "cardNumber": "9876541239876543",
+            "expiryDate": "062023",
+            "cardHolderName": "Rantu Bangal",
+            "cvv": "312",
+            "cardType": "debit"
+          },
+          {
+            "cardNumber": "4561237894561237",
+            "expiryDate": "042026",
+            "cardHolderName": "Rantu Bangal",
+            "cvv": "645",
+            "cardType": "credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "HDFC007",
         "branch": "Paharganj"
@@ -132,11 +195,27 @@
       "password": "Akash@123",
       "email": "akash.skylifts@gmail.com",
       "phone": "9910134317",
+      "userImage":"../assests/user/akashbg.jpg",
       "bankDetails": {
-        "passbookId": 3,
-        "bankName": "citi Bank",
+        "passbookId": 5,
+        "bankName": "Citi Bank",
         "image": "../assets/banks/citi.png",
-        "cardNumber": "1234567891234567",
+        "cards":[
+          {
+            "cardNumber": "3698521473698521",
+            "expiryDate": "082025",
+            "cardHolderName": "Akash Yadav",
+            "cvv": "978",
+            "cardType": "debit"
+          },
+          {
+            "cardNumber": "2581473692581473",
+            "expiryDate": "012028",
+            "cardHolderName": "Akash Yadav",
+            "cvv": "159",
+            "cardType": "credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "citi007",
         "branch": "Saket"
@@ -149,11 +228,27 @@
       "password": "Shlok@123",
       "email": "shlokgaikwad@gmail.com",
       "phone": "1234567890",
+      "userImage":"../assests/user/user.jpg",
       "bankDetails": {
         "passbookId": 6,
         "bankName": "Yes Bank",
         "image": "../assets/banks/yes.png",
-        "cardNumber": "1234567891234567",
+        "cards": [
+          {
+            "cardNumber": "9876543219876543",
+            "expiryDate": "062027",
+            "cardHolderName": "Shlok Gaikwad",
+            "cvv": "753",
+            "cardType": "debit"
+          },
+          {
+            "cardNumber": "1234567891234567",
+            "expiryDate": "032029",
+            "cardHolderName": "Shlok Gaikwad",
+            "cvv": "951",
+            "cardType": "credit"
+          }
+        ],
         "accountNumber": "123456789012",
         "ifscCode": "yes007",
         "branch": "Kalyan"
