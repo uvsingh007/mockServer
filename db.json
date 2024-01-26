@@ -64,7 +64,7 @@
       "password": "admin",
       "email": "admin@gmail.com",
       "phone": "8765434566",
-      "userImage":"../assests/user/user.jpg",
+      "userImage":"../assests/user/user.png",
       "bankDetails": {
         "passbookId": 1,
         "bankName": "Admin Bank",
@@ -96,7 +96,7 @@
       "password": "Arsalan@123",
       "email": "arsalanakhtar124@gmail.com",
       "phone": "8409059493",
-      "userImage":"../assests/user/arsalanbg.jpg",
+      "userImage":"../assests/user/arsalanbg.png",
       "bankDetails": {
         "passbookId": 2,
         "bankName": "Axis Bank",
@@ -129,7 +129,7 @@
       "password": "Yuvraj@123",
       "email": "mr.uvsingh@gmail.com",
       "phone": "8512856025",
-      "userImage":"../assests/user/yuvrajbg.jpg",
+      "userImage":"../assests/user/yuvrajbg.png",
       "bankDetails": {
         "passbookId": 3,
         "bankName": "PNB Bank",
@@ -162,7 +162,7 @@
       "password": "Rantu@123",
       "email": "rantubangal996@gmail.com",
       "phone": "9123672781",
-      "userImage":"../assests/user/rantubg.jpg",
+      "userImage":"../assests/user/rantubg.png",
       "bankDetails": {
         "passbookId": 4,
         "bankName": "HDFC Bank",
@@ -195,7 +195,7 @@
       "password": "Akash@123",
       "email": "akash.skylifts@gmail.com",
       "phone": "9910134317",
-      "userImage":"../assests/user/akashbg.jpg",
+      "userImage":"../assests/user/akashbg.png",
       "bankDetails": {
         "passbookId": 5,
         "bankName": "Citi Bank",
@@ -228,7 +228,7 @@
       "password": "Shlok@123",
       "email": "shlokgaikwad@gmail.com",
       "phone": "1234567890",
-      "userImage":"../assests/user/user.jpg",
+      "userImage":"../assests/user/user.png",
       "bankDetails": {
         "passbookId": 6,
         "bankName": "Yes Bank",
