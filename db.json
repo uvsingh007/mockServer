@@ -308,7 +308,8 @@
           "type": "credit",
           "date": "19/01/2024",
           "time": "10:35",
-          "recipient": "Self"
+          "recipient": "Self",
+          "from": "Credit Card"
         },
         {
           "amount": "2000",
@@ -341,7 +342,8 @@
           "type": "credit",
           "date": "20/01/2024",
           "time": "14:25",
-          "recipient": "Self"
+          "recipient": "Self",
+          "from": "Credit Card"
         },
         {
           "amount": "1000",
@@ -374,7 +376,8 @@
           "type": "credit",
           "date": "20/01/2024",
           "time": "10:00",
-          "recipient": "Self"
+          "recipient": "Self",
+          "from": "Credit Card"
         },
         {
           "amount": "2000",
@@ -407,7 +410,8 @@
           "type": "credit",
           "date": "18/01/2024",
           "time": "12:20",
-          "recipient": "Self"
+          "recipient": "Self",
+          "from": "Credit Card"
         },
         {
           "amount": "1500",
@@ -440,7 +444,8 @@
           "type": "credit",
           "date": "20/01/2024",
           "time": "09:00",
-          "recipient": "Self"
+          "recipient": "Self",
+          "from": "Credit Card"
         },
         {
           "amount": "2000",
